@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carts",
+  "info": {
+    "singularName": "cart",
+    "pluralName": "carts",
+    "displayName": "Cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productsCart": {
+      "displayName": "Product Cart",
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.product-cart"
+    },
+    "userId": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

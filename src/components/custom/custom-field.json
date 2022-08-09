@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_custom_custom_fields",
+  "info": {
+    "name": "Custom_field",
+    "displayName": "Custom field",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "options": {
+      "type": "string"
+    },
+    "variants": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.options"
+    }
+  }
+}

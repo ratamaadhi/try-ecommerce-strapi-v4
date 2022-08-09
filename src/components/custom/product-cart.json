@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_custom_product_carts",
+  "info": {
+    "displayName": "Product Cart",
+    "icon": "shopping-cart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "quantity": {
+      "type": "biginteger",
+      "required": false,
+      "default": "1"
+    },
+    "note": {
+      "type": "text"
+    },
+    "isVariant": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "variantId": {
+      "type": "string"
+    }
+  }
+}
